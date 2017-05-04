@@ -1,0 +1,20 @@
+
+takk !
+
+Din bestilling er
+klar for henting på
+RIO Lund
+
+kl: 13:18
+Lik oss på facebook
+
+
+takk !
+
+Din bestilling vil
+bli levert til 2212 Fylkesveg 975 4442 Tjørhom
+
+kl: 13:27
+
+ALTER TABLE `pre_order_details` ADD `split_with` INT(11) NULL DEFAULT '0' AFTER `entity_type`;
+

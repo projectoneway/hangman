@@ -1,0 +1,85 @@
+http://int-sys.usr.space/hangman/games  POST
+
+email=gpatel5126@gmail.com
+
+{
+"gameId": "e39be695e062",
+"word": "_________",
+"guessesLeft": 10
+}
+
+
+
+
+http://int-sys.usr.space/hangman/games/e39be695e062     GET
+
+{
+"gameId": "e39be695e062",
+"word": "_________",
+"guessesLeft": 10,
+"status": "active"
+}
+
+{
+"gameId": "e39be695e062",
+"word": "__ri_a_l_",
+"guessesLeft": 0,
+"status": "inactive"
+}
+
+
+http://int-sys.usr.space/hangman/games/{gameId}/guesses   POST
+
+char=o
+
+{
+"gameId": "e39be695e062",
+"status": "active",
+"word": "_________",
+"guessesLeft": 9,
+"msg": "You have guessed o"
+}
+
+
+
+char=a
+{
+"gameId": "e39be695e062",
+"status": "active",
+"word": "_____a___",
+"guessesLeft": 9,
+"msg": "You have guessed a"
+}
+
+char=l
+{
+"gameId": "e39be695e062",
+"status": "active",
+"word": "_____a_l_",
+"guessesLeft": 6,
+"msg": "You have guessed l"
+}
+
+{
+"gameId": "e39be695e062",
+"status": "inactive",
+"word": "__ri_a_l_",
+"guessesLeft": 0,
+"msg": "You have guessed h. But you didn't solve hangman! The answer was veritably"
+}
+
+{
+"error": "character h already played"
+}
+
+{
+"error": "game is inactive"
+}
+
+{
+"gameId": "46c9d8c560b0",
+"status": "inactive",
+"word": "fi__ipe_ial",
+"guessesLeft": 0,
+"msg": "You have guessed k. But you didn't solve hangman! The answer was fissipedial"
+}

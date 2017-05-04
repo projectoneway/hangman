@@ -1,0 +1,34 @@
+.DS_Store
+
+tmp/_c/*
+!tmp/_c/index.html
+!tmp/_c/.htaccess
+
+tmp/_lg/*
+!tmp/_lg/index.html
+!tmp/_lg/.htaccess
+
+tmp/_ss/*
+!tmp/_ss/index.html
+!tmp/_ss/.htaccess
+
+uploads/*
+
+!application/config/config.php
+!application/config/database.php
+!application/config/connectionpoint.php
+
+/assets/.sass-cache/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
